@@ -1,1 +1,4 @@
-Praktikum Pemograman Web Thirafi Kazhimi Yusuf_TI10_0110222290
+Praktikum Pemograman Web 
+Nama : Thirafi Kazhimi Yusuf 
+Kelas: TI10 
+NIM  : 011022229
