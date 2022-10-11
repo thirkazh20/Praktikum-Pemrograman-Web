@@ -1,1 +1,1 @@
-# TI10_Thirafi-Kazhimi-Yusuf_-0110222290
+Praktikum Pemograman Web Thirafi Kazhimi Yusuf_TI10_0110222290
