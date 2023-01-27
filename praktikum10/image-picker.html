@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <ul>
+                <li><a href="login.html">Nomer 1</a></li>
+                <li><a href="kurs-rupiah.html">Nomer 2</a></li>
+                <li><a href="image-picker.html">Nomer 4</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <select id="pilihan" onchange="cetakGambar()">
+        <option value="">---PILIH---</option>
+        <option value="bison">Bison</option>
+        <option value="gajah">Gajah</option>
+        <option value="gorila">Gorila</option>
+        <option value="macan">Macan</option>
+        <option value="singa">Singa</option>
+    </select>
+    <img id="image">
+
+    <script>
+        function cetakGambar(){
+            let dropdown = document.getElementById("pilihan").value;
+            let gambar = document.getElementById("image");
+
+            if (dropdown == "bison"){
+                alert("Ini Gambar Bison");
+                gambar.setAttribute("src", "assets/bison.jpg")
+            } else if (dropdown == "gajah"){
+                alert("Ini Gambar Gajah");
+                gambar.setAttribute("src", "assets/gajah.jpg")
+            } else if (dropdown == "gorila"){
+                alert("Ini Gambar Gorila");
+                gambar.setAttribute("src", "assets/gorila.jpg")
+            } else if (dropdown == "macan"){
+                alert("Ini Gambar Macan");
+                gambar.setAttribute("src", "assets/macan.jpg")
+            } else if (dropdown == "singa"){
+                alert("Ini Gambar Singa");
+                gambar.setAttribute("src", "assets/singa.jpg")
+            } else {
+                alert("Gambar Tidak Terdaftar")
+            }
+        }
+    </script>
+
+</body>
+</html>
